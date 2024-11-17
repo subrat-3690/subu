@@ -1,0 +1,178 @@
+DATE: 22/07/24
+
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewpoint" content="width=divice-width, initial-scale=1.0">
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
+
+=========================================================================================
+
+HTML
+------
+intro,structure
+headings,p,a,img
+lists
+formatting tags
+elements(block vs inline)
+Tables
+semantic elements
+forms(different form types, validation)
+media
+micelleneous
+Projects
+----------
+www
+profile-page
+Time Tables
+Resume
+Licence Registration Form/School Registration Form
+======================================================================================
+
+Web Devlopment: 
+Frontend of the website/web app/mobile apps deal with appearence  and user experience
+A website is a collection of web pages
+Frontend of a site can be done by HTML,CSS,JS
+HTML- structure of the pages
+CSS - Layout of the pages
+JS - Function of the page
+
+HTML started by Tim Berner's LEE(WWW founder) in 1989-1992.HTML stands for HyperText Markup Language. current version of HTML is HTML5.
+
+In HTML , everything is defined by tags. tags represent context and there are two types. open and close
+<tagname> -- open tag
+</tagname> -- closed tag
+
+whole html code will be between <html> and </html>
+html contains two child tags.., head and body
+
+In HTML,comments are written as <!--         comment         --->
+headings:
+headings are used to specify important terms.There six headings available in HTML. all are bold and differed by size.
+eg:h1,h2,h3,h4,h5,h6
+---->Per one page,one h1 is recommanded for SEO Purpose
+
+paragraphs: paragraphs are by default font-size:16px  and it represents normal paragraphs using p tag
+---> lorem,lorem20 are used to generate dummy text of 20 words
+
+Anchor tag: 'a' tag is used to link one web page to another / to navigate from one web page to another
+
+href take the value from user and respond the result to anchor tag
+
+target="_blank" is used open the link in new tab
+
+title="" represents title of tag/element as a popover
+=====================================================
+
+Forms are used to collect user's data
+Forms have two attributes , action and method
+action is the file/ path to which we submit details
+method ---> how data is transferred
+
+data is entered through input elements. 
+input element is a self closing inline element and it uses four attributes
+i. type -- it defines type of the input element
+ii. name - name is the variable which holds value
+iii. value -- it holds actual value
+iv. placeholder - dummy text placed until actual value enters
+v. id - id is used to uniquely identify the input type
+
+we can also use labels to label every input elements.
+labels uses for attribute which connects to id attribute in input element
+
+different types of inputs:
+text, email, password,date,time,datetime-local, url,file, image,hidden,color,week,month,range,search,tel,number
+
+Radio : Radio button/inputs are used when we need to select single choice
+we can use type radio with valid labels but names of similar radios should be same
+
+Checkbox : Checkboxes ares used when we need to select multiple choices
+we can use type checkbox with valid labels  but names of similar checkboxes should be same
+
+Select: select is used to create drop downs which can select single or multiple options
+  In select , we options for each option
+
+
+TextArea
+submit
+Reset
+
+form-validation:
+we can validate forms using form-validation
+readonly: we can't overwrite readonly input types
+disabled: we can make inputs disabled based on choice
+required : we can make some inputs required
+maxlength : to specify maximum no.of characters
+minlength: to specify minimum no.of characters
+max/min : to specify maximum / minimum value
+pattern: uses a regular expression to specify certail email/password patterns
+========================================================
+
+Tags vs Elements:
+Tags are either open or close 
+eg: <h1>-- h1 open tag,</h1>-- close tag
+<h1>abcd</h1>  -----> h1 element
+element ===> open tag+content+close
+
+self-closing tags or empty elements or void elements will not have any closing tag
+<br> or <br/>
+<img src=" " alt=" " />
+
+block elements vs inline elements:
+
+Block elements doesn't allows the other elements beside them
+i. Inline elements allows the other elements beside them -a, img, b, strong
+ii. block elements also cover height/width and inline doesn't-p, lists, table, semantic element
+   eg: popular/general block element is --- div
+   popular/general inline element is --- span
+
+  /* make an image and anchor tag and make them come in different lines using block/inline general elements */
+===============================
+
+eg: todo list, grocery list, contact list,marks list,country list,attandence list
+
+lists are actually divided as three types
+1. ordered list
+2. unordered list
+3. definition list
+========================================
+
+Tables are used to represent data in simple way using rows and columns
+horizontal line of data is called row
+Vertical line of data is called column
+
+table in Html comprises <table> tag
+tr --->table row
+th or td ---> table head or table data
+caption ---> heading / caption of the table
+rowspan -- > combine rows
+colspan --> combine columns
+=======================================
+
+semantic elements are for SEO and readability purposes. it won't create any difference in the UI. It used to make search engine understands our code easily.
+popular semantic elements are header,main,footer,section,article,aside,nav etc..,
+
+Classes and ID: classes and Id's are used to identify the elements but two elements might have same classname or one element might have two class names. Ids are always unique and only one for an element
+========================================
+
+internet fundamentals
+   -- what is internet? How it works?
+   -- terminology in internet
+   -- client-server modal
+Website Development Process
+   -- Requirements, Design,frontend,backend,databases,testing,deployement,maintainence
+UI/UX Design -- figma
+Hashnode,dev.to,medium
+Google Developer Tools,VSCode
+
+--- minimal.gallery
+--- https://www.darkmodedesign.com/
+--- https://www.awwwards.com/
+--- https://refero.design/
+--- https://stacksorted.com/

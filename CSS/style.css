@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+body{
+    font-family: "Cinzel", serif;
+    }
+body{
+    background: #dcd8f9;
+}    
+h1
+{
+   font-style: italic;
+   text-align: center;
+   text-decoration: 2px wavy rgb(119, 244, 152);
+   text-decoration-line: underline;
+   text-shadow: 3px 2px rgb(35, 183, 241);
+   text-transform: capitalize;
+}
+h3{
+    border:6px solid rgb(158, 2, 255);
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: max-content;
+    padding: 16px 60px;
+    margin: 40px;
+}
+.myBox{
+    height: 100px; ;
+    width: 400px;
+    background-color: rgb(248, 185, 98);
+    color: blanchedalmond;
+    font-size: 60px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.black{
+    height: 80px; 
+    width: 90px;
+    background-color: black;
+    color: blanchedalmond;
+    border: 4px solid black;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+.oo{
+    height: 80px; 
+    width: 90px;
+    background-color: red;
+    color: rgb(255, 235, 205);
+    border: 4px solid red;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+.green{
+    height: 80px; 
+    width: 90px;
+    background-color: green;
+    color: blanchedalmond;
+    border: 4px solid green;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+.a{
+    list-style-type:circle;
+}
+.hw{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: serif;
+}
+img{
+    height: 250px;
+    width: 180px;
+    float: right;
+}
+.border{
+ border-width: 2px;
+    border-color: #0823f4;
+    border-style: solid;
+   padding-right:30px;
+   padding-left: 50px;
+   padding-top: 30px;
+   padding-bottom: 200px;
+}
+.border1{
+    border:4px solid rgb(23, 2, 255);
+    border-radius: 6px;
+    padding: 16px;
+    margin: 200px;
+    margin-top:-0px;
+    
+   }
+.border2{
+    border: 2px rgb(251, 66, 97) solid;
+    border-radius:4px;
+    padding:8px;
+    margin-top:-180px;
+} 
+.bb{
+    height: 100px; 
+    width: 200px;
+    background-color: black;
+    color: blanchedalmond;
+    border: 4px solid black;
+    padding:0px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: underline;
+}  
+#myDiv{
+    height: 10px;
+    width:78em;
+    background-color: burlywood;
+}
+#parent{
+    font-size: 100%;
+    height: 1em;
+    width:78em;
+    background-color: black;
+}
+button
+{
+    background-color: #dcd8f9; /* all buttons will be red become apply*/
+    height:40px;
+    width: 200px;
+}
+.abc{
+    background-color: aqua;
+}
+#xyz{
+    background-color: #1e37f5;
+    height:40px;
+    width: 300px;
+}
+.GREEN{
+    background-color: green;
+    height:40px;
+    width: 400px;
+}
+.BLUE{
+    background-color: blue;
+    height:40px;
+    width: 400px;
+}
+.RED{
+    background-color: red;
+    height:40px;
+    width: 400px;
+}
+.ENG{
+    background-color: burlywood;
+}
+.MATH{
+    background-color: cornsilk;
+}
+.PHY{
+    background-color: darkgrey;
+}
+.CHE{
+    background-color: khaki;
+}
+.SPORTS{
+    background-color: lightblue;
+}
+.SEMINAR{
+    background-color: rgb(223, 163, 104);
+}
+.LAB{
+    background-color: rgb(138, 161, 97);
+}
+.LUNCH{
+    background-color: rgba(136, 208, 247, 0.963)
+}
+.DP{
+    background-color: rgb(170, 245, 78);
+}
+.OO{
+    background-color: rgb(179, 239, 219);
+}
+.DAY{
+    background-color: #b0a7f4;
+}
